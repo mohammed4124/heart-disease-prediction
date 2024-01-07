@@ -14,9 +14,7 @@ from sklearn import metrics
 # -----------variables---------------
 knn_scores = []
 y_predicted = []
-# knn_classifier=[],[]
 warnings.filterwarnings('ignore')
-
 df = pd.read_csv('heart_1.csv')
 
 
@@ -26,7 +24,6 @@ def inforamation():
 # # Feature Selection
 
 # obtain the correlation of each feature in dataset
-
 
 # plot heat map
 
@@ -78,7 +75,6 @@ def dataProcessingAndAlgorithm():
 
     global y, x, X_test, X_train, y_test
     y = dataset['HeartDisease']
-    # x = dataset.drop(['target'], axis=1)
     x = dataset_pca
     X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.15, random_state=1)
 
@@ -94,8 +90,6 @@ def dataProcessingAndAlgorithm():
     for x in X_test:
         y_predicted.append(knn_classifier.predict([x]))
     joblib.dump(knn_classifier, 'knn_model_heart_1.pkl')
-    '''score = cross_val_score(knn_classifier, x, y, cv=10)
-    print("the accuracy of the algorithm is ----> ", score)'''
 
 
 def processing_test_value(h):
@@ -114,8 +108,6 @@ def processing_test_value(h):
     pca.fit(data_to_test)
     dataset_pca = pca.transform(data_to_test)
     x_test = data_to_test.drop(['HeartDisease'], axis=1)
-    #r = dataset_pca.iloc[-1]
-    #r = r.reshape(1, -1)
     return [dataset_pca[-1]] #[r]
 
 
@@ -123,6 +115,7 @@ def test(test_values):
 
     # Load the pickled model
     laoded_model = joblib.load('knn_model_heart_1.pkl')
+
     # Use the loaded pickled model to make predictions
     prediction = laoded_model.predict(test_values)
     return prediction
@@ -145,7 +138,6 @@ def plot_knn_scores():
 
 def main():
         dataProcessingAndAlgorithm()
-    # print(test(processing_test_value([45,1,3,110,264,0,1,132,0,1.2,1,0,3,0])))
         print("the accuracy is ", metrics.accuracy_score(y_test, y_predicted))
         print("the precision is ", metrics.precision_score(y_test, y_predicted))
         print("the F1-score is ", metrics.f1_score(y_test, y_predicted))
