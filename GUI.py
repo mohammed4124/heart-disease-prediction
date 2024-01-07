@@ -89,9 +89,9 @@ def main():
     win.geometry("800x500+300+100")
     win.resizable(0, 0)
     win.title("Prédicteur de maladie cardiaque")
-    icon = PhotoImage(file='heart.png')
+    icon = PhotoImage(file='images/heart.png')
     win.iconphoto(True, icon)
-    photo = PhotoImage(file="back_button1.png")
+    photo = PhotoImage(file="images/back_button1.png")
     button_photo = photo.subsample(10, 10)
     # win.config(background='')
 
