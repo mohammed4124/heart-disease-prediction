@@ -110,27 +110,8 @@ def main():
         home.tkraise()
     def show_msg():
         messagebox.showinfo("Message", "Hey There! I hope you are doing well.")
-
-
-    '''fileMenu = Menu(menuBar, tearoff=0, bg='white', activebackground='#155994', activeforeground='white' ,font=("Gill Sans", 10))
-    autreMenu = Menu(menuBar, tearoff=0, bg='white', activebackground='#155994', activeforeground='white', font=("Gill Sans", 10))
-    fileMenu.add_cascade(label='Autres', menu=autreMenu, font=("Gill Sans", 10))
-    autreMenu.add_command(label="à propos", command=show_about)
-    autreMenu.add_command(label="Contacts")
-    fileMenu.add_separator()
-    fileMenu.add_command(label="La carte thermique", command=plot_heat_map)
-    fileMenu.add_separator()
-    fileMenu.add_command(label="Histogramme", command=plot_histogram)
-    fileMenu.add_separator()
-    fileMenu.add_command(label="Ratios de patients", command=plot_patient_num)
-    fileMenu.add_separator()
-    fileMenu.add_command(label="Fermer", command=_quit)
-    menuBar.add_cascade(label="Options", menu=fileMenu, font=("Gill Sans", 10))'''
-
     # Menu Aider
-
     aiderMenu = Menu(menuBar, tearoff=0, bg='white', activebackground='#155994', activeforeground='white', font=("Gill Sans", 10, 'bold'))
-    #aiderMenu.add_command(label="KNN scores", command=plot_knn_scores)
     aiderMenu.add_command(label="à propos", command=show_about)
     aiderMenu.add_separator()
     aiderMenu.add_command(label="guide d'étulisation", state=DISABLED)
