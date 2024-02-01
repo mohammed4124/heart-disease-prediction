@@ -3,7 +3,8 @@ import pandas as pd
 import streamlit.components.v1 as components
 ############# data
 st.title('Heart disease prediction ')
-df = pd.read_csv('https://github.com/mohammed4124/heart-disease-prediction/blob/master/heart_1.csv',nrows =50)
+df = pd.read_csv('https://s3-us-west-2.amazonaws.com/'
+         'streamlit-demo-data/uber-raw-data-sep14.csv.gz',nrows =50)
 
 st.markdown('We create a system that allows us to predict cardiac patients from a database of diagnosed patients.'
  'This was achieved by using machine learning techniques and applying the PCA method'
