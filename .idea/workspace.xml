@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7801f834-5e7c-4f75-b148-99731ac62faa" name="Default Changelist" comment="replaced dataset with another; &#10;just made the necessary change;">
+    <list default="true" id="7801f834-5e7c-4f75-b148-99731ac62faa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/heart disease prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/heart disease prediction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knn_model_heart_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/knn_model_heart_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_GUI.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="-2412">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="37" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -58,13 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/streamlit_GUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,18 +90,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>form</find>
-      <find>rainbow</find>
       <find>for</find>
       <find>test_values</find>
       <find>DataFrame</find>
       <find>standardScaler</find>
-      <find>test</find>
       <find>cross_validation</find>
       <find>C5C5C8</find>
       <find>home</find>
@@ -107,10 +119,13 @@
       <find>echontillon</find>
       <find>main</find>
       <find>check_t</find>
-      <find>processing_test_value</find>
       <find>knn</find>
       <find>check_empty</find>
+      <find>FORM</find>
+      <find>text</find>
       <find>check_type</find>
+      <find>processing_test_value</find>
+      <find>test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,6 +140,8 @@
         <option value="$PROJECT_DIR$/Message_GUI_0.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/GUI.py" />
+        <option value="$PROJECT_DIR$/form.html" />
+        <option value="$PROJECT_DIR$/streamlit_GUI.py" />
       </list>
     </option>
   </component>
@@ -155,6 +172,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -171,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.application">
+  <component name="RunManager" selected="Python.streamlit_GUI">
     <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="heart disease prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="broullon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="streamlit_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="heart disease prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,7 +286,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/broullon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/streamlit_GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.streamlit_GUI" />
         <item itemvalue="Python.application" />
         <item itemvalue="Python.GUI" />
         <item itemvalue="Python.Message_GUI_1" />
         <item itemvalue="Python.Message_GUI_0" />
-        <item itemvalue="Python.broullon" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +339,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1592262" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1592262" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.3282313" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50074404" side_tool="true" weight="0.65816325" />
@@ -403,16 +421,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algoritms.py" />
-    <entry file="file://$PROJECT_DIR$/GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
@@ -440,12 +448,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="186" column="31" lean-forward="true" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2412">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streamlit_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
