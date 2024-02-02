@@ -1,3 +1,5 @@
 git+https://github.com/streamlit/gsheets-connection
+pandas
+datetime
 streamlit_gsheets
 streamlit==1.30.*
