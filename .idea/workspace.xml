@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7801f834-5e7c-4f75-b148-99731ac62faa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703423985926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update requirements.text">
+      <created>1706964673326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706964673326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -381,7 +387,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replaced dataset with another; &#10;just made the necessary change;" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced dataset with another; &#10;just made the necessary change;" />
+    <MESSAGE value="update requirements.text" />
+    <option name="LAST_COMMIT_MESSAGE" value="update requirements.text" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/ProgramData/Anaconda3/envs/MY___TESTS/Lib/site-packages/sklearn/utils/validation.py">
