@@ -1,5 +1,10 @@
-git+https://github.com/streamlit/gsheets-connection
 pandas
 datetime
 streamlit_gsheets
-streamlit==1.30.*
+streamlit==1.30.0
+matplotlib
+warnings
+seaborn
+numpy
+sklearn
+joblib
