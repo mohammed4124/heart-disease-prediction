@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit.components.v1 as components
 import datetime
 from streamlit_gsheets import GSheetsConnection
+from application import test, processing_test_value
 # data preparation
 
 url = "https://docs.google.com/spreadsheets/d/1ZV2oZt-KXeWsAftMvrttQPfIiLy-o3oV0axLTCTDCaQ/edit?usp=sharing"
@@ -106,8 +107,9 @@ if submitted:
     if form_attributs_bool:
         for item in form_attributs:
             reformulated_attributes.append(reformulate_attributes(item))
+        reformulated_attributes.append(0)
 
-    if form_attributs_bool and len(form_attributs) == len(reformulated_attributes):
+    if form_attributs_bool and test(processing_test_value(reformulated_attributes)) == [0]:
         components.html("""
         <style>
         .text{
@@ -126,7 +128,7 @@ if submitted:
                  The patient : <br> HAS NOT A HEART DISEASE
             </div>
         """)
-    elif form_attributs_bool:
+    elif form_attributs_bool and test(processing_test_value(reformulated_attributes)) == [1]:
         components.html("""
         <style>
         .text{
@@ -147,8 +149,5 @@ if submitted:
         """)
 
 
-st.markdown("**Note:** ")
-st.markdown(">***The application is under maintenance, so the result will always be negative***")
-st.markdown(">***It will be fixed as soon as possible. Thank you***")
-st.subheader('Developer profile:')
+
 components.iframe("https://www.datascienceportfol.io/mohammed_amin",height=500,width=700,scrolling=True)
