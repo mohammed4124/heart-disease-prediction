@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import streamlit as st
+from streamlit_gsheets import GSheetsConnection
+
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
@@ -9,12 +12,16 @@ from sklearn.model_selection import cross_val_score
 from sklearn.decomposition import PCA
 import joblib
 from sklearn import metrics
+url = "https://docs.google.com/spreadsheets/d/1ZV2oZt-KXeWsAftMvrttQPfIiLy-o3oV0axLTCTDCaQ/edit?usp=sharing"
 
+conn = st.connection("gsheets", type=GSheetsConnection)
+df = conn.read(spreadsheet=url)
+df = pd.DataFrame(df)
 # -----------variables---------------
 knn_scores = []
 y_predicted = []
-#warnings.filterwarnings('ignore')
-df = pd.read_csv('heart_1.csv')
+# warnings.filterwarnings('ignore')
+# df = pd.read_csv('heart_1.csv')
 
 
 def inforamation():
