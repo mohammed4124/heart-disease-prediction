@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import warnings
 import seaborn as sns
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
@@ -14,7 +13,7 @@ from sklearn import metrics
 # -----------variables---------------
 knn_scores = []
 y_predicted = []
-warnings.filterwarnings('ignore')
+#warnings.filterwarnings('ignore')
 df = pd.read_csv('heart_1.csv')
 
 

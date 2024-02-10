@@ -3,7 +3,6 @@ import pandas as pd
 import streamlit.components.v1 as components
 import datetime
 from streamlit_gsheets import GSheetsConnection
-
 # data preparation
 
 url = "https://docs.google.com/spreadsheets/d/1ZV2oZt-KXeWsAftMvrttQPfIiLy-o3oV0axLTCTDCaQ/edit?usp=sharing"

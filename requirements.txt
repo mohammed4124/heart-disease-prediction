@@ -3,8 +3,7 @@ datetime
 streamlit_gsheets
 streamlit==1.30.0
 matplotlib
-warnings
 seaborn
 numpy
-sklearn
+scikit-learn
 joblib
