@@ -1,6 +1,6 @@
 pandas
 datetime
-streamlit_gsheets
+git+https://github.com/streamlit/gsheets-connection
 streamlit==1.30.0
 matplotlib
 seaborn
